@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+# Form-Builder
+A dynamic form builder built with React, TypeScript, Redux Toolkit, and Material-UI. Create custom forms with validation, derived fields, and real-time preview.
+>>>>>>> a3da86466159ca316ff3bf5d8a5e04702e211dc6
