@@ -1,44 +1,148 @@
-# 📝 Dynamic Form Builder
+# 🚀 Dynamic Form Builder
 
-A fully dynamic **Form Builder** built with **React**, **TypeScript**, and **Material-UI (MUI)**, with persistent form data stored in `localStorage`.  
-Users can create, preview, and manage forms dynamically without any backend.
+A powerful, feature-rich form builder application built with React 19, TypeScript, Redux Toolkit, and Material-UI. Create dynamic forms with drag-and-drop functionality, custom validations, derived fields, and real-time preview.
 
----
+![React](https://img.shields.io/badge/React-19.1.1-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-Latest-3178C6?logo=typescript)
+![Material-UI](https://img.shields.io/badge/Material--UI-v7-0081CB?logo=mui)
+![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC?logo=redux)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 🚀 Features
-- 📌 **Create Forms Dynamically** – Add fields of various types (text, number, select, checkbox, etc.).
-- 🖥 **Preview Form** – See exactly how your form will look before saving.
-- 💾 **Persistent Storage** – Saves forms in the browser's `localStorage`.
-- 📂 **My Forms Page** – Manage all your saved forms.
-- 🔄 **Edit & Update** existing forms.
-- 🎨 **Material-UI Components** – Clean and responsive UI.
-- ⚡ **React Router** for navigation.
+## ✨ Features
 
----
+### 🛠️ Form Builder
+- **7 Field Types**: Text, Number, Textarea, Select, Radio, Checkbox, Date
+- **Drag & Drop**: Reorder fields with intuitive drag-and-drop interface
+- **Field Configuration**: Customize labels, default values, and validation rules
+- **Derived Fields**: Auto-calculated fields based on parent field values (Age from DOB, Sum calculations)
 
-## 🛠 Tech Stack
-- **React** (with Vite or CRA)
-- **TypeScript**
-- **Material-UI (MUI)**
-- **React Router DOM**
-- **localStorage** for persistence
+### 🔧 Validation System
+- **Built-in Validators**: Required, Min/Max Length, Email format
+- **Custom Rules**: Password validation (8+ chars, must contain number)
+- **Real-time Validation**: Instant feedback during form interaction
 
----
+### 📱 User Experience
+- **Live Preview**: See exactly how your form will look to end users
+- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
+- **Persistent Storage**: All forms saved to localStorage (no backend required)
+- **Clean Interface**: Intuitive Material-UI components
 
-## 📦 Installation & Setup
+### 🎯 Core Functionality
+- **Create Forms**: Build forms with multiple field types and configurations
+- **Preview Mode**: Interactive preview with real-time validation
+- **Form Management**: View, edit, and organize all saved forms
 
-```bash
-# 1️⃣ Clone the repository
+## 🚀 Live Demo
+
+**[View Live Application](https://your-vercel-url.vercel.app)**
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React 19.1.1 with TypeScript
+- **State Management**: Redux Toolkit
+- **UI Library**: Material-UI v7 (MUI)
+- **Routing**: React Router v7
+- **Drag & Drop**: @hello-pangea/dnd
+- **Build Tool**: Create React App
+- **Deployment**: Vercel
+
+## 📦 Installation
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Clone and Install
+
+
+Clone the repository
 git clone https://github.com/Anish-kumar7641/Form-Builder.git
 
-# 2️⃣ Navigate into the project folder
-cd dynamic-form-builder
+Navigate to project directory
+cd Form-Builder
 
-# 3️⃣ Install dependencies
+Install dependencies
 npm install
 
-# 4️⃣ Start the development server
-npm run dev   # if using Vite
-# or
-npm start     # if using CRA
+Start development server
+npm start
 
+
+
+## 📖 Usage Guide
+
+### Creating a Form
+1. Navigate to the **Create Form** page
+2. Click **"Add Field"** to add form elements
+3. Configure each field:
+   - Set label and default value
+   - Choose validation rules
+   - Mark as derived field if needed
+4. Drag and drop to reorder fields
+5. Click **"Save Form"** and provide a name
+
+### Derived Fields
+Create fields that automatically calculate values:
+- **Age from Date of Birth**: Automatically calculates age
+- **Sum Calculation**: Adds values from multiple fields
+- **Custom Formula**: Define your own calculation logic
+
+### Form Preview
+- Test your form as an end user would see it
+- Real-time validation feedback
+- Derived fields update automatically
+
+### Managing Forms
+- View all saved forms in **My Forms**
+- See form metadata (creation date, field count)
+- Quick preview or edit existing forms
+
+## 🔧 Available Scripts
+
+
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 Assignment Requirements
+
+This project fulfills all requirements of the React + Redux Form Builder assignment:
+
+- ✅ **Dynamic Form Creation**: 7 field types with full configuration
+- ✅ **Validation System**: Built-in and custom validation rules
+- ✅ **Derived Fields**: Auto-calculation based on parent fields
+- ✅ **Drag & Drop**: Field reordering functionality
+- ✅ **Real-time Preview**: Interactive form preview
+- ✅ **Persistent Storage**: localStorage integration
+- ✅ **Clean Architecture**: Modular, type-safe codebase
+- ✅ **Modern Stack**: React 19, TypeScript, Redux Toolkit, MUI v7
+
+## 🐛 Known Issues
+
+- Drag & drop requires `@hello-pangea/dnd` due to React 19 compatibility
+- Complex formulas in derived fields use basic evaluation (could be enhanced with expression parser)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Developer
+
+**Anish Kumar**
+- GitHub: [@Anish-kumar7641](https://github.com/Anish-kumar7641)
+
+## 🙏 Acknowledgments
+
+- Material-UI team for the excellent component library
+- Redux Toolkit for simplified state management
+- React team for the amazing framework
+- Hello Pangea team for maintaining the drag-and-drop library
+
+---
+
+⭐ **Star this repository if you found it helpful!**
