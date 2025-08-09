@@ -99,6 +99,7 @@ const FieldEditor: React.FC<FieldEditorProps> = ({ open, field, onSave, onClose,
             <InputLabel>Field Type</InputLabel>
             <Select
               value={formData.type}
+              label="Field Type" 
               onChange={(e) => setFormData({ ...formData, type: e.target.value as any })}
             >
               <MenuItem value="text">Text</MenuItem>
@@ -186,6 +187,7 @@ const FieldEditor: React.FC<FieldEditorProps> = ({ open, field, onSave, onClose,
               <FormControl fullWidth sx={{ mb: 1 }}>
                 <InputLabel>Computation Type</InputLabel>
                 <Select
+                 label="Computation Type"
                   value={formData.derivedConfig?.computationType || 'sum'}
                   onChange={(e) => setFormData({
                     ...formData,
