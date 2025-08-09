@@ -34,7 +34,7 @@ A powerful, feature-rich form builder application built with React 19, TypeScrip
 
 ## 🚀 Live Demo
 
-**[View Live Application](https://your-vercel-url.vercel.app)**
+**[View Live Application](https://form-builder-one-silk.vercel.app/create)**
 
 ## 🛠️ Tech Stack
 
@@ -49,7 +49,6 @@ A powerful, feature-rich form builder application built with React 19, TypeScrip
 ## 📦 Installation
 
 ### Prerequisites
-- Node.js 18+ 
 - npm or yarn
 
 ### Clone and Install
